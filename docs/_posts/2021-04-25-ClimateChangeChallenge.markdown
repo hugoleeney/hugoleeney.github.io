@@ -122,3 +122,6 @@ Given this scenario where US energy consumption stays constant, what is the requ
 The next chart shows that about 11% growth gets the job done.
 
 ![png]({{ site.baseurl }}/Climate%20Change%20Challenge_files/Climate%20Change%20Challenge_24_0.png){: .center-image }
+
+A Github notebook for this article can be found here - https://github.com/hugoleeney/jupyter_notebooks/blob/main/Environment/Climate%20Change%20Challenge.ipynb
+
