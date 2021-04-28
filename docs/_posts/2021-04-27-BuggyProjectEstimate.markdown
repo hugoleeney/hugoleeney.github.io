@@ -10,7 +10,7 @@ permalink: /Buggy Project Estimate
 
 # Answer
 
-Lets do the workings in a table.
+Lets do the workings in a table first.
 
 | **Task**             | **Number to do** | **Cost** | **Number of lines to write** |
 | -------------------- | ---------------- | -------- | ---------------------------- |
@@ -33,7 +33,7 @@ The table shows doing the initial features is the easy part. The first round of 
 
 # Maths Stuff
 
-The full calculation involves an infinite sum. It should be intuitive that if each bug fix itself creates one or more bugs then that sum will never converge. In our case each bug fix only creates 0.1 * 5 bugs so it does converge. In the table above, after the 9th round of bug fixes less than one whole bug is created so we stop there but the whole sum can be compute by the method given below. 
+The full calculation involves an infinite sum. It should be intuitive that if each bug fix itself creates one or more bugs then that sum will never converge. In our case each bug fix only creates 0.1 * 5 bugs so it does converge. In the table above, after the 9th round of bug fixes less than one whole bug is created so we stop there but the whole sum can be computed by the method given below. 
 
 ### Converging Sum
 If 'bugs per lines' multiplied by 'lines per bug fix' is less than one we can calculate the convergence of the sum as follows (per any convergent geometric series):
